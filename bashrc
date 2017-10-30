@@ -123,10 +123,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export JAVA_HOME=/opt/java/jdk1.8.0_92/
-export JRE_HOME=/opt/java/jdk1.8.0_92/jre
-export PATH=$PATH:/opt/java/jdk1.8.0_92/bin:/opt/java/jdk1.8.0_92/jre/bin:/opt/android-studio/bin
-export LD_PRELOAD='/usr/lib/x86_64-linux-gnu/libstdc++.so.6'
+#export JAVA_HOME=/opt/java/jdk1.8.0_92/
+#export JRE_HOME=/opt/java/jdk1.8.0_92/jre
+#export PATH=$PATH:/opt/java/jdk1.8.0_92/bin:/opt/java/jdk1.8.0_92/jre/bin:/opt/android-studio/bin
+#export LD_PRELOAD='/usr/lib/x86_64-linux-gnu/libstdc++.so.6'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
