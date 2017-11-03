@@ -93,9 +93,10 @@ set tags+=~/.vim/tags/cpp
 set tags+=~/.vim/tags/gl
 set tags+=~/.vim/tags/sdl
 set tags+=~/.vim/tags/qt4
+set tags+=~/.vim/tags/apr
 
 " Install DoxygenToolkit from http://www.vim.org/scripts/script.php?script_id=987
-let g:DoxygenToolkit_authorName="John Doe <john@doe.com>"
+let g:DoxygenToolkit_authorName="osmial <osmial.tomek@gmail.com>"
 
 " Enhanced keyboard mappings
 "
@@ -108,7 +109,7 @@ map <F4> :TagbarToggle<CR>
 " switch between header/source with F4
 " map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 " recreate tags file with F5
-map <F8> :!ctags -R –c++-kinds=+p –fields=+iaS –extra=+q .<CR>
+map <F8> :!ctags -R –c++-kinds=+p –fields=+iaS –extra=+q . > ~/.vim/tags/apr/tags<CR>
 " create doxygen comment
 " map <F6> :Dox<CR>
 " build using makeprg with <F7>
